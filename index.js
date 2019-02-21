@@ -1,3 +1,4 @@
+const os = require('os');
 const nativefier = require('nativefier').default;
 
 var nfopts = {
@@ -5,7 +6,7 @@ var nfopts = {
 	"targetUrl": "https://app.destinyitemmanager.com/",
 	"overwrite": true,
 	"out": "build",
-	"icon": "icons/release/android-chrome-512x512-6-2018.png",
+	"icon": "icons/DIM-Flat",
 	"XXsingleInstance": true,
 	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
 	"electronVersion": "4.0.5",
@@ -24,7 +25,13 @@ if(process.argv[2] == "build"){
 
 if(process.argv[2] == "beta"){
     nfopts.targetUrl = "https://beta.destinyitemmanager.com/";
-    nfopts.icon = "icons/beta/android-chrome-512x512-6-2018.png";
+    nfopts.icon = "icons/DIMBeta-Flat";
+}
+
+if(os.platform() == "win32"){
+    nfopts.icon += ".ico"
+}else{
+    nfopts.icon += ".png"
 }
 
 nativefier(nfopts, function(error, appPath) {
