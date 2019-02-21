@@ -1,0 +1,28 @@
+{
+  "name": "dim-desktop",
+  "version": "1.0.0",
+  "description": "A desktop wrapper for Destiny Item Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aidoboy/DIM-Desktop.git"
+  },
+  "keywords": [
+    "destiny",
+    "nativefier",
+    "electron",
+    "dim"
+  ],
+  "author": "Aidoboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aidoboy/DIM-Desktop/issues"
+  },
+  "homepage": "https://github.com/Aidoboy/DIM-Desktop#readme",
+  "dependencies": {
+    "nativefier": "^7.6.11"
+  }
+}
