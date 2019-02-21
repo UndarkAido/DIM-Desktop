@@ -2,17 +2,18 @@ const os = require('os');
 const nativefier = require('nativefier').default;
 
 var nfopts = {
-	"name": "DIM",
-	"targetUrl": "https://app.destinyitemmanager.com/",
-	"overwrite": true,
-	"out": "build",
-	"icon": "icons/DIM-Flat",
-	"XXsingleInstance": true,
-	"internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
-	"electronVersion": "4.0.5",
-	"inject": ["inject.css", "inject.js"],
-	"XXhideWindowFrame": true,
-	"disableContextMenu": true
+    "name": "DIM",
+    "targetUrl": "https://app.destinyitemmanager.com/",
+    "overwrite": true,
+    "out": "build",
+    "icon": "icons/DIM-Flat",
+    "XXsingleInstance": true,
+    "internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
+    "electronVersion": "4.0.5",
+    "inject": ["inject.css", "inject.js"],
+    "XXhideWindowFrame": true,
+    "disableContextMenu": true,
+    "XXsingleInstance": true
 }
 
 if(process.argv[2] == "build"){
