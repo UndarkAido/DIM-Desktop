@@ -4,7 +4,8 @@
   "description": "A desktop wrapper for Destiny Item Manager",
   "main": "index.js",
   "scripts": {
-    "test": "build"
+    "build": "node .\index.js build"
+    "install": "node .\index.js install"
   },
   "repository": {
     "type": "git",
