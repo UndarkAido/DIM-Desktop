@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="71px"
+   height="25px"
+   viewBox="0 0 71 25"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="DIMDev-HLogo-Light.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DIM-menu</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1729"
+     inkscape:window-height="891"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="-5.125"
+     inkscape:cy="12.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg27" />
+  <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">DIM-menu</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs16">
+    <linearGradient
+       x1="14.844886"
+       y1="14.844881"
+       x2="11.24247"
+       y2="11.242357"
+       id="linearGradient-1"
+       gradientTransform="scale(1.0000151,0.99998494)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFFFFF"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#C9CACC"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       x1="18.84198"
+       y1="18.842282"
+       x2="6.2369841"
+       y2="6.2371345"
+       id="linearGradient-2"
+       gradientTransform="scale(1.000006,0.99999398)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FBB040"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#F36E21"
+         offset="100%"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-473.7415,-520.366)"
+       xlink:href="#a"
+       id="c"
+       x1="682.40698"
+       y1="777.25098"
+       x2="224.66901"
+       y2="311.55801"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(-114.424,556.882)"
+       y2="7.8239999"
+       x2="45.798"
+       y1="93.375"
+       x1="45.798"
+       gradientUnits="userSpaceOnUse"
+       id="a">
+      <stop
+         stop-color="#b6b6b6"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#737373"
+         offset=".995"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient845"
+       x1="0"
+       y1="12.492482"
+       x2="24.985266"
+       y2="12.492482"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <polygon
+     id="Shape"
+     points="14.99134,12.492256 12.492783,9.994076 9.9943018,12.492256 12.492783,14.990963 "
+     style="fill:url(#linearGradient-1);fill-rule:nonzero;stroke:none;stroke-width:1" />
+  <polygon
+     id="polygon19"
+     points="14.991189,7.4956699 17.489671,9.9938502 17.489445,9.994076 19.988077,12.492557 17.489445,14.990963 17.489671,14.991114 15.45893,17.021704 12.492633,19.987926 9.9940008,17.489445 7.4956699,14.990963 7.4956699,14.991114 5.1892521,12.684771 4.997038,12.492557 7.8018276,9.6876926 9.9940008,7.4953689 7.4956699,4.997038 4.997038,7.4953689 2.4985566,9.994076 0,12.492557 2.4986319,14.990963 4.9973391,17.489445 4.997038,17.489595 7.4956699,19.987926 9.9940008,22.486633 12.492633,24.984964 14.991189,22.486633 17.489821,19.987926 19.988077,17.489445 22.486633,14.990963 24.985265,12.492557 22.887694,10.395061 22.6723,10.179592 22.486633,9.994076 19.988077,7.4956699 17.489671,4.997038 14.731768,2.2391354 12.492633,-2.8421709e-014 9.9940008,2.4984814 12.021881,4.526362 "
+     style="fill:url(#linearGradient845);fill-rule:nonzero;stroke:none;stroke-width:1;fill-opacity:1.0" />
+  <path
+     d="m 55.462855,3.9499457 h -2.73683 V 20.839945 l 3.503353,1.5e-4 V 9.0883972 l 5.242084,4.8144578 5.183006,-4.8028677 V 20.840095 l 3.503428,-1.5e-4 V 3.9499457 H 67.44244 l -5.965559,5.5095586 z m -8.291244,2.258e-4 h 3.377744 V 20.84017 h -3.377744 z m -5.317194,-7.53e-5 H 28.09117 v 3.378045 h 13.512481 l -3.76e-4,3.3779698 h 3.76e-4 v 2.745485 l -3.76e-4,4.010605 h -10.13406 v -6.75609 H 28.09117 v 10.134135 l 3.378045,-1.51e-4 h 3.378196 v 1.51e-4 l 3.377819,-1.51e-4 h 3.378421 v 1.51e-4 l 3.377669,-1.51e-4 v -6.756014 1.5e-4 -10.1341348 h -2.835797 z"
+     id="path21"
+     inkscape:connector-curvature="0"
+     style="fill:#f2f2f2;fill-rule:nonzero;stroke:none;stroke-width:1" />
+</svg>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24.985266"
+   height="24.984964"
+   viewBox="0 0 24.985266 24.984964"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="DIMBeta-Icon-Dark.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata31">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>DIM-menu</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1729"
+     inkscape:window-height="891"
+     id="namedview29"
+     showgrid="false"
+     inkscape:zoom="16"
+     inkscape:cx="5.664931"
+     inkscape:cy="18.394867"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg27"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">DIM-menu</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs16">
+    <linearGradient
+       x1="14.844886"
+       y1="14.844881"
+       x2="11.24247"
+       y2="11.242357"
+       id="linearGradient-1"
+       gradientTransform="scale(1.0000151,0.99998494)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFFFFF"
+         offset="0%"
+         id="stop6" />
+      <stop
+         stop-color="#C9CACC"
+         offset="100%"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       x1="18.84198"
+       y1="18.842281"
+       x2="6.2369843"
+       y2="6.2371345"
+       id="linearGradient-2"
+       gradientTransform="scale(1.000006,0.99999398)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#a-7">
+      <stop
+         stop-color="#FBB040"
+         offset="0%"
+         id="stop11" />
+      <stop
+         stop-color="#F36E21"
+         offset="100%"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.03491402,0,0,0.03491476,-4.78978,-1.648361)"
+       id="a"
+       gradientUnits="userSpaceOnUse"
+       x1="562.36902"
+       y1="472.383"
+       x2="459.186"
+       y2="369.20001">
+      <stop
+         offset="0"
+         stop-color="#6d6e71"
+         id="stop6-8" />
+      <stop
+         offset="1"
+         stop-color="#414042"
+         id="stop8-3" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-114.424,556.882)"
+       y2="7.8239999"
+       x2="45.798"
+       y1="93.375"
+       x1="45.798"
+       gradientUnits="userSpaceOnUse"
+       id="a-7">
+      <stop
+         stop-color="#29aac5"
+         offset="0"
+         id="stop8-8" />
+      <stop
+         stop-color="#4b96d6"
+         offset=".995"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a-7"
+       id="linearGradient845"
+       x1="0"
+       y1="12.492482"
+       x2="24.985266"
+       y2="12.492482"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:url(#a);stroke-width:0.03491439"
+     d="M 9.994,12.492465 12.49259,14.991 14.991,12.492465 12.49259,9.994 Z"
+     id="path11" />
+  <polygon
+     id="polygon19"
+     points="17.489445,9.994076 19.988077,12.492557 17.489445,14.990963 17.489671,14.991114 15.45893,17.021704 12.492633,19.987926 9.9940008,17.489445 7.4956699,14.990963 7.4956699,14.991114 5.1892521,12.684771 4.997038,12.492557 7.8018276,9.6876926 9.9940008,7.4953689 7.4956699,4.997038 4.997038,7.4953689 2.4985566,9.994076 0,12.492557 2.4986319,14.990963 4.9973391,17.489445 4.997038,17.489595 7.4956699,19.987926 9.9940008,22.486633 12.492633,24.984964 14.991189,22.486633 17.489821,19.987926 19.988077,17.489445 22.486633,14.990963 24.985265,12.492557 22.887694,10.395061 22.6723,10.179592 22.486633,9.994076 19.988077,7.4956699 17.489671,4.997038 14.731768,2.2391354 12.492633,-2.8421709e-014 9.9940008,2.4984814 12.021881,4.526362 14.991189,7.4956699 17.489671,9.9938502 "
+     style="fill:url(#linearGradient845);fill-rule:nonzero;stroke:none;stroke-width:1;fill-opacity:1.0" />
+</svg>
