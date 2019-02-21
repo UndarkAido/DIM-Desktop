@@ -18,12 +18,14 @@ var nfopts = {
 if(process.argv[2] == "build"){
 }else if(process.argv[2] == "build"){
     console.log("Installation is not yet supported.");
-    process.exit(0);
+    process.exit(1);
 }else{
     console.log("`" + process.argv[2] + "` is not a recognized command.");
+    process.exit(1);
 }
 
-if(process.argv[2] == "beta"){
+if(process.argv[3] == "beta"){
+    nfopts.name += " Beta"
     nfopts.targetUrl = "https://beta.destinyitemmanager.com/";
     nfopts.icon = "icons/DIMBeta-Flat";
 }
@@ -33,6 +35,8 @@ if(os.platform() == "win32"){
 }else{
     nfopts.icon += ".png"
 }
+
+//console.log(nfopts);
 
 nativefier(nfopts, function(error, appPath) {
     if (error) {
