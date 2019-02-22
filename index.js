@@ -13,7 +13,8 @@ var nfopts = {
     "inject": ["inject.css", "inject.js"],
     "XXhideWindowFrame": true,
     "disableContextMenu": true,
-    "XXsingleInstance": true
+    "XXsingleInstance": true,
+    "platform": os.platform()
 }
 
 if(process.argv[2] == "build"){
@@ -25,16 +26,26 @@ if(process.argv[2] == "build"){
     process.exit(1);
 }
 
-if(process.argv[3] == "beta"){
-    nfopts.name += " Beta"
-    nfopts.targetUrl = "https://beta.destinyitemmanager.com/";
-    nfopts.icon = "icons/DIMBeta-Flat";
+for(var i = 3; i < process.argv.length; i++){
+    if(process.argv[i] == "beta"){
+	nfopts.name += " Beta"
+	nfopts.targetUrl = "https://beta.destinyitemmanager.com/";
+	nfopts.icon = "icons/DIMBeta-Flat";
+    }else if(["linux", "windows", "osx", "mas", "win32", "darwin", "mac"].includes(process.argv[i])){
+	if(process.argv[2] == "install"){
+	    console.log("You can't install a different platofrom's build.")
+	    process.exit(2);
+	}
+	nfopts.platform = process.argv[i];
+    }
 }
 
-if(os.platform() == "win32"){
-    nfopts.icon += ".ico"
+if(["windows", "win32"].includes(process.argv[i])){
+    nfopts.icon += ".ico";
+}else if(["osx", "mas", "darwin", "mac"].includes(process.argv[i])){
+    nfopts.icon += ".icns";
 }else{
-    nfopts.icon += ".png"
+    nfopts.icon += ".png";
 }
 
 //console.log(nfopts);
