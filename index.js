@@ -11,10 +11,11 @@ var nfopts = {
     "internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
     "electronVersion": "4.0.5",
     "inject": ["inject.css", "inject.js"],
-    "XXhideWindowFrame": true,
+    "hideWindowFrame": true,
     "disableContextMenu": true,
     "XXsingleInstance": true,
-    "platform": os.platform()
+    "platform": os.platform(),
+    "fastQuit": true,
 }
 
 if(process.argv[2] == "build"){
@@ -33,7 +34,7 @@ for(var i = 3; i < process.argv.length; i++){
 	nfopts.icon = "icons/DIMBeta-Flat";
     }else if(["linux", "windows", "osx", "mas", "win32", "darwin", "mac"].includes(process.argv[i])){
 	if(process.argv[2] == "install"){
-	    console.log("You can't install a different platofrom's build.")
+	    console.log("You can't install a different platform's build.")
 	    process.exit(2);
 	}
 	nfopts.platform = process.argv[i];
