@@ -11,7 +11,7 @@ var nfopts = {
     "internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
     "electronVersion": "4.0.5",
     "inject": ["inject.css", "inject.js"],
-    "XXhideWindowFrame": true,
+    "hideWindowFrame": true,
     "disableContextMenu": true,
     "XXsingleInstance": true,
     "platform": os.platform()
