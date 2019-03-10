@@ -9,7 +9,7 @@ var nfopts = {
     "icon": "icons/DIM-Flat",
     "XXsingleInstance": true,
     "internalUrls": ".*?\\.(google|googleusercontent|destinyitemmanager|bungie)\\.*?",
-    "electronVersion": "4.0.5",
+    "electronVersion": "4.0.8",
     "inject": ["inject.css", "inject.js"],
     "hideWindowFrame": true,
     "disableContextMenu": true,
