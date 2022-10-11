@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/Aidoboy/DIM-Desktop#readme",
   "dependencies": {
-    "nativefier": "^7.6.11"
+    "nativefier": "^50.0.0"
   }
 }
